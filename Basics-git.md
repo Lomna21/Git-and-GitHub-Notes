@@ -79,13 +79,14 @@ git push origin (branch name like main/master)
 # Merging Code
 
 - git diff (branch name) --> to compare commits, branches, files and more
+- git diff --staged --> diff of what is staged but not yet commite
 - git merge (branch name) --> to merge 2 branches
 
 # Pull Request
 
 - It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
 
-# Pull COmmand
+# Pull Command
 
 git pull origin main
 used to fetch and download content from a remote repo and immediately update the local repo to match that content.
