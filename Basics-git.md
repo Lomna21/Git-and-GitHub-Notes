@@ -80,3 +80,32 @@ git push origin (branch name like main/master)
 
 - git diff (branch name)  --> to compare commits, branches, files and more
 - git merge (branch name) --> to merge 2 branches
+
+# Pull Request
+- It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+# Pull COmmand
+git pull origin main
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+# Resolving Merge Conflicts 
+An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+
+git log --> to get history of all the commits. from this we get hash value.
+
+# Undoing Changes
+Case 1 : staged changes
+git reset (file name) --> for perticular file
+git reset --> for all file
+
+Case 2 : commited changes (for one commit)
+get reset HEAD-1
+
+Case 3 : commited changes (for many commits)
+git reset (commit hash)
+git reset --hard (commit hash)
+
+# Fork 
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+FOrk is a rough copy
