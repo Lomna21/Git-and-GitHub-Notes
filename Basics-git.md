@@ -63,9 +63,11 @@ git push origin master
 make github repo <br>
 git init <br>
 git remote add origin (github repo link) <br>
-git remote -v --> to verify remote <br>
-git branch --> to check branch <br>
-git branch -M main --> to rename branch <br>
+--git remote -v --> to verify remote <br>
+--git branch --> to check branch <br>
+--git branch -M main --> to rename branch <br>
+git add .
+git commit -m "message"
 git push origin (branch name like main/master)
 
 # Branch Commands
