@@ -66,3 +66,9 @@ git remote -v        --> to verify remote
 git branch           --> to check branch
 git branch -M main   --> to rename branch
 git push origin main / (master)
+
+# Branch Commands
+- git branch         --> to check branch
+- git branch -M main --> to rename branch
+- git checkout (branch name)  --> to navigate
+- git checkout -b (new branch name)  --> to create new branch
