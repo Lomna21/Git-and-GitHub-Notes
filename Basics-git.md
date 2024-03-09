@@ -60,12 +60,12 @@ git push origin master
 
 # FOR STATRING NEW PROJECT
 
-make github repo
-git init
-git remote add origin (github repo link)
-git remote -v --> to verify remote
-git branch --> to check branch
-git branch -M main --> to rename branch
+make github repo <br>
+git init <br>
+git remote add origin (github repo link) <br>
+git remote -v --> to verify remote <br>
+git branch --> to check branch <br>
+git branch -M main --> to rename branch <br>
 git push origin (branch name like main/master)
 
 # Branch Commands
@@ -99,11 +99,10 @@ git log --> to get history of all the commits. from this we get hash value.
 # Undoing Changes
 
 Case 1 : staged changes<br>
-
 git reset (file name) --> for perticular file <br>
 git reset --> for all file
 
-Case 2 : commited changes (for one commit)
+Case 2 : commited changes (for one commit)<br>
 get reset HEAD-1
 
 Case 3 : commited changes (for many commits)<br>
