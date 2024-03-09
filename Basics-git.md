@@ -95,17 +95,17 @@ An event that takes place when Git is unable to automatically resolve difference
 git log --> to get history of all the commits. from this we get hash value.
 
 # Undoing Changes
-Case 1 : staged changes
-git reset (file name) --> for perticular file
+Case 1 : staged changes<br>
+git reset (file name) --> for perticular file <br>
 git reset --> for all file
 
 Case 2 : commited changes (for one commit)
 get reset HEAD-1
 
-Case 3 : commited changes (for many commits)
-git reset (commit hash)
+Case 3 : commited changes (for many commits)<br>
+git reset (commit hash)<br>
 git reset --hard (commit hash)
 
 # Fork 
-A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository.<br>
 FOrk is a rough copy
