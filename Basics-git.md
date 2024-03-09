@@ -59,16 +59,24 @@ git commit -m "Message"
 git push origin master
 
 # FOR STATRING NEW PROJECT
+
 make github repo
 git init
 git remote add origin (github repo link)
-git remote -v        --> to verify remote 
-git branch           --> to check branch
-git branch -M main   --> to rename branch
-git push origin main / (master)
+git remote -v --> to verify remote
+git branch --> to check branch
+git branch -M main --> to rename branch
+git push origin (branch name like main/master)
 
 # Branch Commands
-- git branch         --> to check branch
+
+- git branch --> to check branch
 - git branch -M main --> to rename branch
-- git checkout (branch name)  --> to navigate
-- git checkout -b (new branch name)  --> to create new branch
+- git checkout (branch name) --> to navigate
+- git checkout -b (new branch name) --> to create new branch
+- git brach -d (branch name) --> to delete existing branchf
+
+# Merging Code
+
+- git diff (branch name)  --> to compare commits, branches, files and more
+- git merge (branch name) --> to merge 2 branches
